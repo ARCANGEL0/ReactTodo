@@ -29,7 +29,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "ebuild": "npm run build && node_modules/.bin/build",
-    "electron-dev": "concurrently \"BROWSER=none npm start\" \"wait-on http://localhost:3000 && electron .\"",
+    "dev": "concurrently \"BROWSER=none npm start\" \"wait-on http://localhost:3000 && electron .\"",
     "electron-package": "./node_modules/.bin/electron-builder -c.extraMetadata.main=build/electron.js",
     "preelectron-package": "npm run build"
   
