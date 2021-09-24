@@ -18,7 +18,7 @@ Ou para abrir como um programa com Electron
 ### `npm run dev`  
 
 O programa consta com arquivos executaveis para Linux e Windows
-na pasta (build)(build)
+na pasta [build](build)
 
 
 
